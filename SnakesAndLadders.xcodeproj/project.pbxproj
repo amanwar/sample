@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C327CAFD19C049CE00887C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CAFC19C049CE00887C42 /* AppDelegate.swift */; };
+		C327CAFF19C049CE00887C42 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CAFE19C049CE00887C42 /* MasterViewController.swift */; };
+		C327CB0119C049CE00887C42 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CB0019C049CE00887C42 /* DetailViewController.swift */; };
+		C327CB0419C049CE00887C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C327CB0219C049CE00887C42 /* Main.storyboard */; };
+		C327CB0619C049CF00887C42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C327CB0519C049CE00887C42 /* Images.xcassets */; };
+		C327CB1219C049CF00887C42 /* SnakesAndLaddersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CB1119C049CF00887C42 /* SnakesAndLaddersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C327CB0C19C049CF00887C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C327CAEF19C049CE00887C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C327CAF619C049CE00887C42;
+			remoteInfo = SnakesAndLadders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C327CAF719C049CE00887C42 /* SnakesAndLadders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakesAndLadders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C327CAFB19C049CE00887C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C327CAFC19C049CE00887C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C327CAFE19C049CE00887C42 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C327CB0019C049CE00887C42 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C327CB0319C049CE00887C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C327CB0519C049CE00887C42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C327CB0B19C049CF00887C42 /* SnakesAndLaddersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakesAndLaddersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C327CB1019C049CF00887C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C327CB1119C049CF00887C42 /* SnakesAndLaddersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakesAndLaddersTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C327CAF419C049CE00887C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C327CB0819C049CF00887C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C327CAEE19C049CE00887C42 = {
+			isa = PBXGroup;
+			children = (
+				C327CAF919C049CE00887C42 /* SnakesAndLadders */,
+				C327CB0E19C049CF00887C42 /* SnakesAndLaddersTests */,
+				C327CAF819C049CE00887C42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C327CAF819C049CE00887C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C327CAF719C049CE00887C42 /* SnakesAndLadders.app */,
+				C327CB0B19C049CF00887C42 /* SnakesAndLaddersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C327CAF919C049CE00887C42 /* SnakesAndLadders */ = {
+			isa = PBXGroup;
+			children = (
+				C327CAFC19C049CE00887C42 /* AppDelegate.swift */,
+				C327CAFE19C049CE00887C42 /* MasterViewController.swift */,
+				C327CB0019C049CE00887C42 /* DetailViewController.swift */,
+				C327CB0219C049CE00887C42 /* Main.storyboard */,
+				C327CB0519C049CE00887C42 /* Images.xcassets */,
+				C327CAFA19C049CE00887C42 /* Supporting Files */,
+			);
+			path = SnakesAndLadders;
+			sourceTree = "<group>";
+		};
+		C327CAFA19C049CE00887C42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C327CAFB19C049CE00887C42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C327CB0E19C049CF00887C42 /* SnakesAndLaddersTests */ = {
+			isa = PBXGroup;
+			children = (
+				C327CB1119C049CF00887C42 /* SnakesAndLaddersTests.swift */,
+				C327CB0F19C049CF00887C42 /* Supporting Files */,
+			);
+			path = SnakesAndLaddersTests;
+			sourceTree = "<group>";
+		};
+		C327CB0F19C049CF00887C42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C327CB1019C049CF00887C42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C327CAF619C049CE00887C42 /* SnakesAndLadders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C327CB1519C049CF00887C42 /* Build configuration list for PBXNativeTarget "SnakesAndLadders" */;
+			buildPhases = (
+				C327CAF319C049CE00887C42 /* Sources */,
+				C327CAF419C049CE00887C42 /* Frameworks */,
+				C327CAF519C049CE00887C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnakesAndLadders;
+			productName = SnakesAndLadders;
+			productReference = C327CAF719C049CE00887C42 /* SnakesAndLadders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C327CB0A19C049CF00887C42 /* SnakesAndLaddersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C327CB1819C049CF00887C42 /* Build configuration list for PBXNativeTarget "SnakesAndLaddersTests" */;
+			buildPhases = (
+				C327CB0719C049CF00887C42 /* Sources */,
+				C327CB0819C049CF00887C42 /* Frameworks */,
+				C327CB0919C049CF00887C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C327CB0D19C049CF00887C42 /* PBXTargetDependency */,
+			);
+			name = SnakesAndLaddersTests;
+			productName = SnakesAndLaddersTests;
+			productReference = C327CB0B19C049CF00887C42 /* SnakesAndLaddersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C327CAEF19C049CE00887C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LM;
+				TargetAttributes = {
+					C327CAF619C049CE00887C42 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C327CB0A19C049CF00887C42 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C327CAF619C049CE00887C42;
+					};
+				};
+			};
+			buildConfigurationList = C327CAF219C049CE00887C42 /* Build configuration list for PBXProject "SnakesAndLadders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C327CAEE19C049CE00887C42;
+			productRefGroup = C327CAF819C049CE00887C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C327CAF619C049CE00887C42 /* SnakesAndLadders */,
+				C327CB0A19C049CF00887C42 /* SnakesAndLaddersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C327CAF519C049CE00887C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C327CB0419C049CE00887C42 /* Main.storyboard in Resources */,
+				C327CB0619C049CF00887C42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C327CB0919C049CF00887C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C327CAF319C049CE00887C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C327CB0119C049CE00887C42 /* DetailViewController.swift in Sources */,
+				C327CAFF19C049CE00887C42 /* MasterViewController.swift in Sources */,
+				C327CAFD19C049CE00887C42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C327CB0719C049CF00887C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C327CB1219C049CF00887C42 /* SnakesAndLaddersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C327CB0D19C049CF00887C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C327CAF619C049CE00887C42 /* SnakesAndLadders */;
+			targetProxy = C327CB0C19C049CF00887C42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C327CB0219C049CE00887C42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C327CB0319C049CE00887C42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C327CB1319C049CF00887C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C327CB1419C049CF00887C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C327CB1619C049CF00887C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SnakesAndLadders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C327CB1719C049CF00887C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SnakesAndLadders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C327CB1919C049CF00887C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnakesAndLaddersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnakesAndLadders.app/SnakesAndLadders";
+			};
+			name = Debug;
+		};
+		C327CB1A19C049CF00887C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnakesAndLaddersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnakesAndLadders.app/SnakesAndLadders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C327CAF219C049CE00887C42 /* Build configuration list for PBXProject "SnakesAndLadders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C327CB1319C049CF00887C42 /* Debug */,
+				C327CB1419C049CF00887C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C327CB1519C049CF00887C42 /* Build configuration list for PBXNativeTarget "SnakesAndLadders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C327CB1619C049CF00887C42 /* Debug */,
+				C327CB1719C049CF00887C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C327CB1819C049CF00887C42 /* Build configuration list for PBXNativeTarget "SnakesAndLaddersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C327CB1919C049CF00887C42 /* Debug */,
+				C327CB1A19C049CF00887C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C327CAEF19C049CE00887C42 /* Project object */;
+}
