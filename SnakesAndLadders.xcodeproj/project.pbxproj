@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C327CAFD19C049CE00887C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CAFC19C049CE00887C42 /* AppDelegate.swift */; };
-		C327CAFF19C049CE00887C42 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CAFE19C049CE00887C42 /* MasterViewController.swift */; };
+		C327CAFF19C049CE00887C42 /* SLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CAFE19C049CE00887C42 /* SLViewController.swift */; };
 		C327CB0119C049CE00887C42 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CB0019C049CE00887C42 /* DetailViewController.swift */; };
 		C327CB0419C049CE00887C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C327CB0219C049CE00887C42 /* Main.storyboard */; };
 		C327CB0619C049CF00887C42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C327CB0519C049CE00887C42 /* Images.xcassets */; };
 		C327CB1219C049CF00887C42 /* SnakesAndLaddersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CB1119C049CF00887C42 /* SnakesAndLaddersTests.swift */; };
+		C327CB1C19C0620400887C42 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CB1B19C0620400887C42 /* Dice.swift */; };
+		C327CB1F19C06BD700887C42 /* SnakesAndLadders.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327CB1E19C06BD700887C42 /* SnakesAndLadders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		C327CAF719C049CE00887C42 /* SnakesAndLadders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakesAndLadders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C327CAFB19C049CE00887C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C327CAFC19C049CE00887C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C327CAFE19C049CE00887C42 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C327CAFE19C049CE00887C42 /* SLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLViewController.swift; sourceTree = "<group>"; };
 		C327CB0019C049CE00887C42 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C327CB0319C049CE00887C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C327CB0519C049CE00887C42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C327CB0B19C049CF00887C42 /* SnakesAndLaddersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakesAndLaddersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C327CB1019C049CF00887C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C327CB1119C049CF00887C42 /* SnakesAndLaddersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakesAndLaddersTests.swift; sourceTree = "<group>"; };
+		C327CB1B19C0620400887C42 /* Dice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		C327CB1E19C06BD700887C42 /* SnakesAndLadders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakesAndLadders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		C327CAF919C049CE00887C42 /* SnakesAndLadders */ = {
 			isa = PBXGroup;
 			children = (
+				C327CB2019C0726F00887C42 /* ViewControllers */,
+				C327CB1D19C06ADB00887C42 /* Models */,
 				C327CAFC19C049CE00887C42 /* AppDelegate.swift */,
-				C327CAFE19C049CE00887C42 /* MasterViewController.swift */,
+				C327CAFE19C049CE00887C42 /* SLViewController.swift */,
 				C327CB0019C049CE00887C42 /* DetailViewController.swift */,
 				C327CB0219C049CE00887C42 /* Main.storyboard */,
 				C327CB0519C049CE00887C42 /* Images.xcassets */,
@@ -110,6 +116,22 @@
 				C327CB1019C049CF00887C42 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C327CB1D19C06ADB00887C42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C327CB1B19C0620400887C42 /* Dice.swift */,
+				C327CB1E19C06BD700887C42 /* SnakesAndLadders.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C327CB2019C0726F00887C42 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C327CB0119C049CE00887C42 /* DetailViewController.swift in Sources */,
-				C327CAFF19C049CE00887C42 /* MasterViewController.swift in Sources */,
+				C327CB1F19C06BD700887C42 /* SnakesAndLadders.swift in Sources */,
+				C327CAFF19C049CE00887C42 /* SLViewController.swift in Sources */,
+				C327CB1C19C0620400887C42 /* Dice.swift in Sources */,
 				C327CAFD19C049CE00887C42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SnakesAndLadders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -343,6 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SnakesAndLadders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
