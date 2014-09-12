@@ -35,7 +35,7 @@ public class SnakesAndLadders: DiceGame {
         var noOfRolls = 0
         println("Game started")
         gameLoop: while square != finalSquare {
-            sleep(2)
+//            sleep(2)
             let diceRoll = dice.roll()
             noOfRolls += 1
             println("dice rolled as \(diceRoll)")
